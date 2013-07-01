@@ -21,6 +21,7 @@ namespace FizzBuzz
             foreach (var i in fbitems.OrderBy(c => c.OrderCheck))
             {
                 bool setMessage = true;
+
                 foreach (var m in i.Multiples)
                 {
                     if (number % m != 0)
